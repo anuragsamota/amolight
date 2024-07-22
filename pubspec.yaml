@@ -1,0 +1,32 @@
+name: amolight
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  screen_brightness: ^1.0.1
+  wakelock_plus: ^1.2.5
+  get: ^4.6.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  icons_launcher: ^2.1.7
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+icons_launcher:
+  image_path: "assets/ic_logo_border.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
